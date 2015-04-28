@@ -22,11 +22,11 @@ Please note: this code is still under development, has not been properly tested,
 2. decompress the file and locate the scrobbles.tsv file
 3. cd to the src folder and run this in terminal, adjusted to your file paths for gmbrc and scrobbles.tsv
 
-        ```shell
-   
-        python main.py --gmbrc /home/USER/.config/gmusicbrowser/gmbrc --lastdb /PATH/TO/scrobbles.tsv
-        
-        ```
+```shell
+
+python main.py --gmbrc /home/USER/.config/gmusicbrowser/gmbrc --lastdb /PATH/TO/scrobbles.tsv
+
+```
 
 4. if you wish to revert for any reason, a backup file named gmbrc_backup_timestring should be in the gmusicbrowser folder
 
